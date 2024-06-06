@@ -1,0 +1,71 @@
+.header {
+    overflow: hidden;
+    border: none;
+    border-bottom: none;
+}
+
+.header-container {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-width: 0;
+}
+
+.header button {
+    border-radius: 10px;
+    color: white;
+    background-color: #4284f5;
+    border: 0;
+}
+
+.header button:hover {
+    background-color: whitesmoke;
+    color: #4284f5;
+}
+
+.header p.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4284f5;
+    padding: 9px 0;
+}
+
+.header p.logo:hover {
+    background-color: whitesmoke;
+    color: #4284f5;
+    cursor: context-menu;
+}
+
+hr {
+    display: none;
+}
+
+.header-right {
+    text-decoration: none;
+}
+
+hr {
+    display: none;
+}
+
+.header {
+    border: none;
+}
+
+.header-container {
+    border: none;
+    padding: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .header p {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
